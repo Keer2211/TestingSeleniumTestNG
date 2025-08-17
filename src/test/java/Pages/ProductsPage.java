@@ -18,13 +18,13 @@ public class ProductsPage
     public static String formalShoes_xpath = "/html/body/div[2]/center/h2";
     public static String sportsShoes_xpath = "/html/body/div[3]/center/h2";
     public static String sneakers_xpath = "/html/body/div[4]/center/h2";
-    public static String formalShoes_DropDown_xpath = "/html/body/div[2]/center/div/i[1]";
-    public static String sportsShoes_DropDown_xpath = "/html/body/div[2]/center/div/i[1]";
-    public static String sneakers_DropDown_xpath = "/html/body/div[2]/center/div/i[1]";
-
-    public static String formalShoes_DropUp_xpath = "/html/body/div[2]/center/div/i[2]";
-    public static String sportsShoes_DropUp_xpath = "/html/body/div[2]/center/div/i[2]";
-    public static String sneakers_DropUp_xpath = "/html/body/div[2]/center/div/i[2]";
+//    public static String formalShoes_DropDown_xpath = "/html/body/div[2]/center/div/i[1]";
+//    public static String sportsShoes_DropDown_xpath = "/html/body/div[2]/center/div/i[1]";
+//    public static String sneakers_DropDown_xpath = "/html/body/div[2]/center/div/i[1]";
+//
+//    public static String formalShoes_DropUp_xpath = "/html/body/div[2]/center/div/i[2]";
+//    public static String sportsShoes_DropUp_xpath = "/html/body/div[2]/center/div/i[2]";
+//    public static String sneakers_DropUp_xpath = "/html/body/div[2]/center/div/i[2]";
     public static String formalShoes_shoeOne_xpath = "/html/body/div[2]/table/tbody/tr[1]/td[1]";
     public static String sportsShoes_shoeOne_xpath = "/html/body/div[3]/table/tbody/tr[1]/td[1]";
     public static String sneakers_shoeOne_xpath = "/html/body/div[4]/table/tbody/tr[1]/td[1]";
@@ -62,7 +62,7 @@ public class ProductsPage
         String actualName = driver.findElement(By.xpath(formalShoes_shoeOne_xpath)).getText();
         Assert.assertEquals(actualName.trim(), "Classic Cheltenham");
         driver.findElement(By.cssSelector(".fa.fa-angle-double-up.formalshoedropup")).click();
-        if(actualName.trim().equals("Classic Cheltenhan")){
+        if(actualName.trim().equals("Classic Cheltenham")){
             extentTest.log(Status.PASS,"Test passed for verification of first formal shoes");
         }
         else{
@@ -107,16 +107,16 @@ public class ProductsPage
         }
     }
 
-    public static void formalShoes_shoeOne_getTitle()
-    {
-
-    }
-    public static void sportsShoes_shoeOne_getTitle()
-    {
-
-    }
-    public static void sneakers_shoeOne_getTitle()
-    {
-
-    }
+//    public static void formalShoes_shoeOne_getTitle()
+//    {
+//
+//    }
+//    public static void sportsShoes_shoeOne_getTitle()
+//    {
+//
+//    }
+//    public static void sneakers_shoeOne_getTitle()
+//    {
+//
+//    }
 }
