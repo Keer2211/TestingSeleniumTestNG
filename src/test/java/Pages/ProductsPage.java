@@ -107,16 +107,16 @@ public class ProductsPage
         }
     }
 
-    public static void formalShoes_shoeOne_getTitle()
-    {
-
-    }
-    public static void sportsShoes_shoeOne_getTitle()
-    {
-
-    }
-    public static void sneakers_shoeOne_getTitle()
-    {
-
-    }
+//    public static void formalShoes_shoeOne_getTitle()
+//    {
+//
+//    }
+//    public static void sportsShoes_shoeOne_getTitle()
+//    {
+//
+//    }
+//    public static void sneakers_shoeOne_getTitle()
+//    {
+//
+//    }
 }
